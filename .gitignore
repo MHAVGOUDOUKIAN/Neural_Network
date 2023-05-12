@@ -1,0 +1,13 @@
+exe
+.vscode
+Makefile
+CMakeCache.txt
+install_manifest.txt
+*.cmake
+CMakeFiles
+SFML_App
+*.temp
+*.tmp
+SFML_App
+logs
+*.log
