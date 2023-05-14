@@ -4,6 +4,7 @@
 #include <math.h>
 #include <vector>
 #include <iostream>
+#include <Features/Random/Random.hpp>
 
 class Matrix
 {

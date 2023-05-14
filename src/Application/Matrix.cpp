@@ -5,6 +5,11 @@ Matrix::Matrix(std::size_t row, std::size_t col)
 , m_col(col)
 , m_mat(m_row, std::vector<float>(m_col, 0.f))
 {
+	for(int i=0; i<m_row; i++) {
+		for(int j=0; j<m_col; j++) {
+			m_mat[i][j] = randomf(0,1);
+		}	
+	}
 }
 
 Matrix::Matrix(std::size_t row, std::size_t col, float value)
